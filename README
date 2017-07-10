@@ -1,0 +1,20 @@
+#Ansible 2 ServerSpec
+Helper utility to simplify synchronising configuration information that is
+shared between Ansible playbooks, and Serverspec infrastructure tests.
+
+The utility is designed to mimic the ```ansible-playbook``` command as closely as
+possible, to minimise the learning curve and enable easy integration into
+existing build or deployment scripts.
+
+## Installation
+```
+pip install ansible2serverspec
+```
+
+
+### Installing from Source
+```
+$ pip install -r requirements.txt
+
+$ python setup.py install
+```

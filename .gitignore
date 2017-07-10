@@ -1,3 +1,6 @@
+# Mac index files
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -45,6 +48,7 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
+coverage_report/
 
 # Translations
 *.mo
